@@ -3,5 +3,5 @@ export class CreateMusicDTO {
   title: string;
   author: string;
   releaseDate: string;
-  keywords: string[];
+  keywords: string;
 }

@@ -18,7 +18,7 @@ model Music {
   title       String
   author      String
   releaseDate DateTime @default(now())
-  keywords    String[]
+  keywords    String
 
   createadAt DateTime @default(now()) @map("created_at")
   updatedAt  DateTime @default(now()) @map("updated_at")

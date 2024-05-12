@@ -3,5 +3,5 @@ export class UpdateMusicDTO {
   title: string;
   author: string;
   releaseDate: string;
-  keywords: string[];
+  keywords: string;
 }
